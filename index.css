@@ -1,16 +1,29 @@
+html {
+    background-color: aqua;
+    
+   
+    
+}
+
 .container{
-    /* display: flex;
-    column-gap: 10px; */
+    display: grid;
+    grid-template-rows: 2fr;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 10px white;
+    column-gap: 10px;
+    display: grid 20px 50px 20px;
     background-color: antiquewhite;
     padding: 10px;
     margin: 0px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    height: fit-content;
+    border: solid black;
 
 }
 
-.header{
+header {
     font-size: 20px;
-    justify-content: left;
+    /* justify-content: left; */
 
 }
 
@@ -18,35 +31,45 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    line-height: 1px;
+    align-items: center;
+    
 
 
 }
+img {
+    /* display: flex; */
+    width: 200px;
+    height: auto;
+    justify-content: right;
+    border: 2px solid rgb(3, 105, 119);
+    /* justify-items: flex-start; */
+    
+  
+}
 
-#flexbox2{
-    display: flex;
+/* #flexbox2{
+    display:flex;
     flex-direction: column;
     width: 90%;
+    height: 100%;
     border: 10px double #E0694D;
     padding: 0 5px;
     column-gap: 50px;
     background-color: #7EB8E1;
     
 
-}
+} */
 
-#myImage{
-    display: flex;
-    width: 200px;
-    height: auto;
-    justify-content: right;
-    border: 2px solid black;
-    justify-items: flex-start;
-  
-}
 
 p {
     border: 1px;
-    border-bottom: double;
+    border-top: double  rgb(3, 105, 119);
+    border-bottom: double rgb(3, 105, 119);
+    
+    
+
+    
     
 }
 
@@ -58,4 +81,8 @@ justify header left, justify pic right
 remove spacing in header text
 create parent grid and put flexbox inside
 if i create a link, i have to create another page? with it's own CSS?
+add heADER? ADD BANNER? add hover?
+figure out which container is holding up the others 
+GOOGLE EXAMPLE PORTFOLIOS
+add OOP, MVC, MS office
  */
