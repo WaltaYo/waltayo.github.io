@@ -6,9 +6,15 @@ html {
 }
 
 .container{
-    display: grid;
-    grid-template-rows: 2fr;
-    grid-template-columns: 2fr 2fr;
+    display: inline-grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows:  100px 2fr 1fr;
+    
+   
+ 
+
+
+    /* display: grid;
     column-gap: 10px white;
     column-gap: 10px;
     display: grid 20px 50px 20px;
@@ -17,17 +23,26 @@ html {
     margin: 0px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     height: fit-content;
-    border: solid black;
+    border: solid black; */
 
 }
 
 header {
-    font-size: 20px;
+   
+   
     /* justify-content: left; */
 
 }
 
-#flexbox1{
+#flexbox2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
+/* #flexbox1{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -36,14 +51,13 @@ header {
     
 
 
-}
+} */
 img {
-    /* display: flex; */
+    
     width: 200px;
     height: auto;
-    justify-content: right;
     border: 2px solid rgb(3, 105, 119);
-    /* justify-items: flex-start; */
+
     
   
 }
