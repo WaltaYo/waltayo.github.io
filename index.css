@@ -10,7 +10,7 @@ html {
     grid-auto-columns: 1fr; 
     grid-template-columns: 1.5fr 3fr 0.5fr; 
     grid-template-rows: 1fr 5fr 1fr; 
-    gap: 1px 0px; 
+    gap: 20px 20px; 
     grid-template-areas: 
       "header header header header"
       "navbar main main scroll"
