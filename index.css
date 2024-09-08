@@ -13,16 +13,20 @@
     height: auto;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 541px) and (max-width: 768px){
     .img-profile {
-        max-width: 80%;
+        max-width: 70%;
     }
 }
 
  @media (min-width: 413px) and (max-width: 991px){
     body{
         padding-top:0; padding-left: 2rem
-    }}
+    }
+    .img-profile {
+        max-width: 50%;
+    }
+}
 
 
 @media (min-width:992px){
